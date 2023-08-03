@@ -17,7 +17,7 @@ html, body{
     padding:20px;
     background-color: aquamarine;
 }
-
+/* Cards styling */
 .card-container{
     width:100%;
     max-width: 350px;
@@ -70,4 +70,56 @@ html, body{
     background-color: white;
     color: black;
     transition: all ease 0.5s;
+}
+/* Nav styling */
+.navbar{
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(68, 98, 143);
+    box-shadow: 2px 4px 9px 1px rgb(110 92 92 / 40%);
+}
+.navcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.navlist{
+    /* width: 100%; */
+    display: flex;
+    column-gap: 20px;
+}
+.navlist a{
+    color: black;
+    text-decoration-line: none;
+}
+.navlist li{
+    padding: 5px;
+}
+.navlist a:hover{
+    color:white;
+    text-decoration-line: underline;
+    transition: all ease 0.5s;
+}
+ul,li,ol{
+    list-style-type: none;
+}
+.navbtn{
+    background-color: white;
+    padding: 5px;
+    border: 2px solid rgb(68, 98, 143);
+    border-radius: 8px;
+}
+.navbtn:hover{
+    background-color: rgb(68, 98, 143);
+    transition: all ease 0.5s;
+    border:2px solid white;
 }
